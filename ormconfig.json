@@ -1,0 +1,12 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 30306,
+    "username": "root",
+    "password": "SenhaDoRoot",
+    "database": "compras-crud",
+    "entities": [
+      "src/entities/*.entity.ts"
+    ],
+    "synchronize": true
+  }
