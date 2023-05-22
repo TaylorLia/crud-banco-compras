@@ -15,14 +15,10 @@ import { Cart } from './entities/cart.entity';
 import { CartProduct } from './entities/cart-product.entity';
 import { CartProductController } from './controller/cartProductController';
 import { CartProductService } from './services/cartProductService';
-import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
 
 
 @Module({
   imports: [
-    BrowserModule,
-    ReactiveFormsModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: '172.30.20.10',
