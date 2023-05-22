@@ -21,7 +21,7 @@ import { CartProductService } from './services/cartProductService';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: '172.30.20.10',
-      port: 30406,
+      port: 3306,
       username: 'root',
       password: 'SenhaDoRoot',
       database: 'compras-crud',
