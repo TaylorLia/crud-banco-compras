@@ -1,9 +1,9 @@
 {
     "type": "mysql",
     "host": "localhost",
-    "port": 3306,
+    "port": 30406,
     "username": "root",
-    "password": "root",
+    "password": "SenhaDoRoot",
     "database": "compras-crud",
     "entities": [
       "src/entities/*.entity.ts"
