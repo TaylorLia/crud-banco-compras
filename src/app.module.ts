@@ -20,7 +20,7 @@ import { CartProductService } from './services/cartProductService';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '172.30.20.10',
       port: 30406,
       username: 'root',
       password: 'SenhaDoRoot',
